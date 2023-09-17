@@ -1,0 +1,46 @@
+HTML{
+    background-color: rgb(255,65,90);
+    color: white;
+    text-align: center;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+.h1::selection{
+    background-color: rgba(255, 255, 255, 0.747); 
+    color: black;
+}
+.h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+.books{
+    border: white solid;
+    border-width: 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: gray;
+}
+.book{
+    border: white solid;
+    display: flex;
+    border-width: 1px;
+    padding: 8px;
+    text-align: center;
+    color: rgb(255,65,90);
+    font-size: 200%;
+}
+.book:hover{
+background-color: white;
+transition-duration: 1s;
+transform: rotateX(360deg);
+}
+.book:checked{
+    background-color: black;
+}
+.me{
+    color: aqua;
+}
